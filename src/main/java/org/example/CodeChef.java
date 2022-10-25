@@ -1,10 +1,10 @@
 package org.example;
 
 import java.util.Scanner;
-import static java.lang.System.exit;
+import java.util.stream.IntStream;
 
 public class CodeChef {
-    public static  void main(String [] args){
+    public static void main(String [] args){
             /**Scanner scanner=new Scanner(System.in);
             //System.out.println("enter the number of test cases\n");
             int T=scanner.nextInt();
@@ -67,18 +67,20 @@ public class CodeChef {
             for (int j = 0; j < T; j++) {
                 System.out.println(A[j]);
             }**/
-            Scanner scanner=new Scanner(System.in);
+            /**Scanner scanner=new Scanner(System.in);
             System.out.println("enter the number of trials");
             int T=scanner.nextInt();
             int[] A=new int[T];
-            for(int i=0;i<T;i++){
+
+            /*for(int i=0;i<T;i++){
                 System.out.println("enter the chef's current rating");
                 int x=scanner.nextInt();
                 System.out.println("enter the rating that the chef is currently solving");
                 int y=scanner.nextInt();
-                if()
+                //if()
             }
-
+            IntStream range=IntStream.range(10,20);
+            return range;*/
 
 
 

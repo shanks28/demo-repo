@@ -1,2 +1,27 @@
-package polymorphismexample;public class Vehicle {
+package polymorphismexample;
+
+public class Vehicle {
+    protected String start;
+    protected String stop;
+    protected String speed;
+    protected String direction;
+
+    public Vehicle(String start,String stop,String speed,String direction){
+        this.direction=direction;
+        this.speed=speed;
+        this.start=start;
+        this.stop=stop;
+    }
+    public void start(){
+        System.out.println(start);
+    }
+    public void stop(){
+        System.out.println(stop);
+    }
+    public void speed(){
+        System.out.println(speed);
+    }
+    public void direction(){
+        System.out.println(direction);
+    }
 }
